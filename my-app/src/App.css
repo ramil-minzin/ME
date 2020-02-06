@@ -1,0 +1,45 @@
+.app-wrapper {
+
+  display: grid;
+  grid-template-areas:
+     'header-grid header-grid'
+     'menu-grid content-grid';
+  grid-template-rows: 180px;
+  grid-template-columns: 3fr 10fr;
+}
+
+.Header {
+  background-color: darkkhaki;
+  grid-area: header-grid;
+
+
+}
+
+.logo {
+  height: 140px;
+  padding: 20px 25px;
+  border-radius: 50%;
+}
+
+.nav-side {
+  grid-area: menu-grid;
+  background-color: aqua;
+}
+
+.content {
+  grid-area: content-grid;
+  background-color: burlywood;
+}
+
+.content__img {
+  height: 300px;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
